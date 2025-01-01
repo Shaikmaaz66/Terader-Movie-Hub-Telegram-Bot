@@ -26,7 +26,7 @@ PORT = int(os.environ.get('PORT', '8443'))
 logger = logging.getLogger(Rebelfans_bot)
 
 TOKEN = os.environ.get('7124707193:AAEeXCrXpVJf8WWiL_Sd_j4N-H2ZvfbDbyE')
-name = ''
+name = 'Rebelfans_bot'
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
